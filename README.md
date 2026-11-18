@@ -39,7 +39,7 @@ O Plantão Grey's é um blog de fãs da série Grey's Anatomy. O site reúne inf
 
 ### Teste de teclado
 
-[Preencher depois de testar a navegação usando a tecla Tab.]
+O teste foi realizado nas cinco páginas utilizando as teclas Tab e Enter. Foi possível navegar pelos links, menus e campos dos formulários sem utilizar o mouse.
 
 ## Fontes consultadas
 
