@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com o blog Plantão Grey's.">
+    <title>Contato | Plantão Grey's</title>
+</head>
+<body>
+
+    <a href="#conteudo">Pular para o conteúdo</a>
+
+    <header>
+        <h1>Entre em contato</h1>
+        <p>Tem alguma sugestão ou quer compartilhar sua opinião sobre Grey's Anatomy?</p>
+    </header>
+
+    <nav aria-label="Menu principal">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre a série</a></li>
+            <li><a href="dados.html">Personagens</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="contato.html" aria-current="page">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main id="conteudo">
+
+        <section>
+            <h2>Nossas informações</h2>
+
+            <p>
+                O Plantão Grey's é um blog fictício criado por fãs da série.
+                Você pode utilizar os contatos abaixo como exemplo.
+            </p>
+
+            <address>
+                Plantão Grey's<br>
+                Rua dos Médicos, 100<br>
+                Seattle, WA, Estados Unidos<br>
+
+                E-mail:
+                <a href="mailto:contato@plantaogreys.example">
+                    contato@plantaogreys.example
+                </a>
+                <br>
+
+                Telefone:
+                <a href="tel:+12065550100">
+                    +1 206 555 0100
+                </a>
+            </address>
+        </section>
+
+        <section>
+            <h2>Horário de atendimento</h2>
+
+            <dl>
+                <dt>Segunda a sexta-feira</dt>
+                <dd>Das 9h às 18h</dd>
+
+                <dt>Sábado</dt>
+                <dd>Das 9h às 13h</dd>
+
+                <dt>Domingo e feriados</dt>
+                <dd>Sem atendimento</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Localização</h2>
+
+            <p>
+                O endereço apresentado é fictício e faz parte da proposta
+                do blog.
+            </p>
+
+            <p>
+                <a href="https://www.google.com/maps/search/?api=1&amp;query=Grey+Sloan+Memorial+Hospital+Seattle"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Pesquisar Grey Sloan Memorial Hospital no Google Maps
+                </a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Envie uma mensagem</h2>
+
+            <p>
+                Preencha os campos abaixo para deixar uma mensagem
+                para o blog.
+            </p>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text"
+                           id="nome"
+                           name="nome"
+                           autocomplete="name"
+                           required>
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           autocomplete="email"
+                           required>
+                </p>
+
+                <p>
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="" selected disabled>Escolha um assunto</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="opiniao">Opinião sobre a série</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem"
+                              name="mensagem"
+                              rows="5"
+                              maxlength="500"
+                              required></textarea>
+                </p>
+
+                <button type="submit">Enviar mensagem</button>
+                <button type="reset">Limpar</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Plantão Grey's - Blog de fãs sobre Grey's Anatomy.</p>
+        <p><a href="index.html">Voltar para a página inicial</a></p>
+    </footer>
+
+</body>
+</html>
